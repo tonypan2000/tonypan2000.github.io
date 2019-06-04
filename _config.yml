@@ -14,14 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Tony Pan
-email: tonypan2000@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website! I am a Computer Science student and research assistant
   at the University of Michigan College of Engineering. Explore this site to learn more about me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "tonypan.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tonypan2000
+linkedin_username: tony-pan
 github_username:  tonypan2000
+email: tonypan2000@gmail.com
 
 # Build settings
 markdown: kramdown
