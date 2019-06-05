@@ -9,7 +9,7 @@ body {
   }
   .nav-link,
   .navbar-brand {
-    color: rgb(204, 26, 26);
+    color: rgb(116, 102, 102);
     cursor: pointer;
   }
   .nav-link {
@@ -50,7 +50,37 @@ body {
     color: #6ab446;
   }
   .description p {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
     line-height: 1.5;
+  }
+
+  /*--- footer ---*/
+  .card {
+    background-color: #222;
+    color: #ccc;
+    border: #222;
+  }
+  .card-header {
+    background-color: #222;
+    color: #ccc;
+    border-bottom: #222;
+  }
+  .page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+  }
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  }
+  
+  /*--- social media buttons ---*/
+  .fa {
+    font-size: 50px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 50%;
   }
