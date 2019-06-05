@@ -3,6 +3,10 @@ body {
     margin: 0;
     background: #dcf4f8;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
   /*--- navigation bar ---*/
   .navbar {
     background:#2e8bc0;
@@ -57,9 +61,10 @@ body {
 
   /*--- footer ---*/
   .card {
-    background-color: #222;
+    background-color: rgb(23, 14, 70);
     color: #ccc;
     border: #222;
+    border-radius: 5%;
   }
   .card-header {
     background-color: #222;
@@ -92,11 +97,17 @@ body {
       background-position: center;
       position: relative;
     }
+    .second-overlay {
+      position: absolute;
+      min-height: 100%;
+      min-width: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.6);
+    }
     .course-description {
       left: 50%;
-      position: absolute;
       top: 50%;
-      transform: translate(-50%, -55%);
       text-align: center;
     }
     .course-description h1 {
@@ -107,3 +118,88 @@ body {
       font-size: 1.0rem;
       line-height: 1.2;
     }
+
+    /*--- scroll ---*/
+    .scroll a span::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      content: '';
+      width: 44px;
+      height: 44px;
+      box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+      border-radius: 100%;
+      opacity: 0;
+      -webkit-animation: sdb03 3s infinite;
+      animation: sdb03 3s infinite;
+      box-sizing: border-box;
+    }
+    @-webkit-keyframes sdb03 {
+      0% {
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+      }
+      60% {
+        box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes sdb03 {
+      0% {
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+      }
+      60% {
+        box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    .scroll a span {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 46px;
+      height: 46px;
+      margin-left: -23px;
+      border: 1px solid #fff;
+      border-radius: 100%;
+      box-sizing: border-box;
+    }
+    .scroll a {
+      position: absolute;
+      bottom: 120px;
+      left: 50%;
+      display: inline-block;
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      color: #fff;
+      font : normal 400 20px/1 'Josefin Sans', sans-serif;
+      letter-spacing: .1em;
+      transition: opacity .3s;
+    }
+    .scroll a span::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      content: '';
+      width: 16px;
+      height: 16px;
+      margin: -12px 0 0 -8px;
+      border-left: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      box-sizing: border-box;
+    }
+    
