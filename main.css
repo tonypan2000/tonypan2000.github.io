@@ -84,3 +84,11 @@ body {
     text-decoration: none;
     border-radius: 50%;
   }
+
+    /*--- education background image ---*/
+    .education {
+      background-image: url('images/education.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
