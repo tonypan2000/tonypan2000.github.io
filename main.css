@@ -119,6 +119,27 @@ body {
       line-height: 1.2;
     }
 
+    /*--- research ---*/
+    .research {
+      background-image: url('images/research.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .course-description {
+      left: 50%;
+      top: 50%;
+      text-align: center;
+    }
+    .course-description h1 {
+      color: #cbe009;
+    }
+    .course-description p {
+      color: rgb(255, 255, 255);
+      font-size: 1.0rem;
+      line-height: 1.2;
+    }
+
     /*--- scroll ---*/
     .scroll a span::before {
       position: absolute;
