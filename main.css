@@ -117,6 +117,9 @@ body {
       font-size: 1.0rem;
       line-height: 1.2;
     }
+    .btn {
+      font-size: 0.9rem;
+    }
 
     /*--- research ---*/
     .research {
@@ -138,6 +141,31 @@ body {
     }
     .research-card {
       background-color: rgb(173, 14, 14);
+      color: rgb(255, 255, 255);
+      border: #222;
+      border-radius: 2%;
+    }
+
+    /*--- programming ---*/
+    .programming {
+      background-image: url('images/programming.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: scroll;
+    }
+    .programming-description {
+      left: 50%;
+      top: 50%;
+      text-align: center;
+    }
+    .programming-description h2 {
+      color: rgb(52, 214, 93);
+      font-size: 2.0rem;
+      line-height: 1.2;
+    }
+    .programming-card {
+      background-color: rgb(116, 15, 141);
       color: rgb(255, 255, 255);
       border: #222;
       border-radius: 2%;
@@ -231,15 +259,47 @@ body {
     ::-webkit-scrollbar {
       width: 12px;
       height: 12px;
+      display: none;
     }
     ::-webkit-scrollbar-track {
-      border: 1px solid yellowgreen;
+      border: 1px solid rgba(255, 255, 255, 0);
       border-radius: 10px;
     }
     ::-webkit-scrollbar-thumb {
-      background: yellowgreen;  
+      background: rgb(245, 230, 100);  
       border-radius: 10px;
     }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #88ba1c;  
+    .card-deck {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
     }
+    
+/* equal card height */
+.row-equal > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto;
+}
+.row-equal .card {
+ width: 100%;
+}
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+  display: flex;
+}
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+  opacity: 0.5;
+  display: flex;
+}
+/* control image height */
+.card-img-top-250 {
+  max-height: 250px;
+  overflow:hidden;
+}
+.card-body {
+  padding: 1rem;
+}
