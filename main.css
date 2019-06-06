@@ -64,7 +64,7 @@ body {
     background-color: rgb(23, 14, 70);
     color: #ccc;
     border: #222;
-    border-radius: 5%;
+    border-radius: 2%;
   }
   .card-header {
     background-color: #222;
@@ -83,8 +83,6 @@ body {
   
   /*--- social media buttons ---*/
   .fa {
-    font-size: 50px;
-    width: 50px;
     text-align: left;
     text-decoration: none;
     border-radius: 50%;
@@ -96,6 +94,7 @@ body {
       background-size: cover;
       background-position: center;
       position: relative;
+      overflow: scroll;
     }
     .second-overlay {
       position: absolute;
@@ -125,19 +124,23 @@ body {
       background-size: cover;
       background-position: center;
       position: relative;
+      overflow: scroll;
     }
-    .course-description {
+    .research-description {
       left: 50%;
       top: 50%;
       text-align: center;
     }
-    .course-description h2 {
-      color: #cbe009;
-    }
-    .course-description p {
-      color: rgb(255, 255, 255);
-      font-size: 1.0rem;
+    .research-description h2 {
+      color: rgb(19, 18, 18);
+      font-size: 2.0rem;
       line-height: 1.2;
+    }
+    .research-card {
+      background-color: rgb(173, 14, 14);
+      color: rgb(255, 255, 255);
+      border: #222;
+      border-radius: 2%;
     }
 
     /*--- scroll ---*/
@@ -224,3 +227,19 @@ body {
       box-sizing: border-box;
     }
     
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+      width: 12px;
+      height: 12px;
+    }
+    ::-webkit-scrollbar-track {
+      border: 1px solid yellowgreen;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: yellowgreen;  
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #88ba1c;  
+    }
