@@ -362,80 +362,42 @@ body {
 .carousel-indicators {
   bottom: -25px;
 }
+#controls {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
 
-.btn-arrow-right,
-.btn-arrow-left {
-  position: relative;
-  padding-left: 18px;
-  padding-right: 18px;
+.tab-pane {
+    background-color: rgb(9, 95, 9);
+    color: #ccc;
+    border: #222;
+    border-radius: 1%;
 }
-.btn-arrow-right {
-  padding-left: 36px;
+.tab-pane p {
+  color: rgb(230, 248, 130);
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: left;
+  padding: 15px;
+  height: 350px;
 }
-.btn-arrow-left {
-  padding-right: 36px;
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(90, 45, 45); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 14px; /* Increase font size */
 }
-.btn-arrow-right:before,
-.btn-arrow-right:after,
-.btn-arrow-left:before,
-.btn-arrow-left:after {
-  /* make two squares (before and after), looking similar to the button */
-  content: "";
-  position: absolute;
-  top: 5px;
-  /* move it down because of rounded corners */
-  width: 22px;
-  /* same as height */
-  height: 22px;
-  /* button_outer_height / sqrt(2) */
-  background: inherit;
-  /* use parent background */
-  border: inherit;
-  /* use parent border */
-  border-left-color: transparent;
-  /* hide left border */
-  border-bottom-color: transparent;
-  /* hide bottom border */
-  border-radius: 0px 4px 0px 0px;
-  /* round arrow corner, the shorthand property doesn't accept "inherit" so it is set to 4px */
-  -webkit-border-radius: 0px 4px 0px 0px;
-  -moz-border-radius: 0px 4px 0px 0px;
-}
-.btn-arrow-right:before,
-.btn-arrow-right:after {
-  transform: rotate(45deg);
-  /* rotate right arrow squares 45 deg to point right */
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-}
-.btn-arrow-left:before,
-.btn-arrow-left:after {
-  transform: rotate(225deg);
-  /* rotate left arrow squares 225 deg to point left */
-  -webkit-transform: rotate(225deg);
-  -moz-transform: rotate(225deg);
-  -o-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-}
-.btn-arrow-right:before,
-.btn-arrow-left:before {
-  /* align the "before" square to the left */
-  left: -11px;
-}
-.btn-arrow-right:after,
-.btn-arrow-left:after {
-  /* align the "after" square to the right */
-  right: -11px;
-}
-.btn-arrow-right:after,
-.btn-arrow-left:before {
-  /* bring arrow pointers to front */
-  z-index: 1;
-}
-.btn-arrow-right:before,
-.btn-arrow-left:after {
-  /* hide arrow tails background */
-  background-color: white;
+
+#myBtn:hover {
+  background-color: rgb(236, 31, 31); /* Add a dark-grey background on hover */
 }
