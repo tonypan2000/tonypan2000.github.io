@@ -10,7 +10,7 @@ $(document).ready(function(){
   });
 
   $('.carousel').carousel({
-    interval: 5000
+    interval: 500000
   })
   
   (function($) {
