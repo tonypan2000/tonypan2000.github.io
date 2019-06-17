@@ -375,6 +375,7 @@ body {
     color: #ccc;
     border: #222;
     border-radius: 1%;
+    padding: 20px;
 }
 .tab-pane p {
   color: rgb(230, 248, 130);
