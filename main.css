@@ -383,7 +383,7 @@ body {
   line-height: 1.2;
   text-align: left;
   padding: 15px;
-  height: 350px;
+  height: auto;
 }
 
 #myBtn {
