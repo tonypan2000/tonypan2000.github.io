@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: #dcf4f8;
+    background: #01313a;
   }
   html {
     scroll-behavior: smooth;
@@ -90,7 +90,7 @@ body {
 
     /*--- education ---*/
     .education {
-      background-image: url('images/education.jpg');
+      /*background-image: url('images/education.jpg');*/
       background-size: cover;
       background-position: center;
       position: relative;
@@ -123,7 +123,7 @@ body {
 
     /*--- research ---*/
     .research {
-      background-image: url('images/research.jpg');
+      /*background-image: url('images/research.jpg');*/
       background-size: cover;
       background-position: center;
       position: relative;
