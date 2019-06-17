@@ -408,3 +408,10 @@ body {
 #spie {
   padding: 20px;
 }
+
+.background {
+  background-image: url('images/about-background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
