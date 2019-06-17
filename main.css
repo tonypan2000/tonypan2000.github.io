@@ -403,3 +403,7 @@ body {
 #myBtn:hover {
   background-color: rgb(236, 31, 31); /* Add a dark-grey background on hover */
 }
+
+#spie {
+  padding: 20px;
+}
