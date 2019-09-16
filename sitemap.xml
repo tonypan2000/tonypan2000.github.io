@@ -8,58 +8,73 @@
 
 
 <url>
-  <loc>https://tonypan.us/</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/</loc>
+  <lastmod>2019-09-15T19:45:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/files/tonypan_resume.pdf</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/files/tonypan_resume.pdf</loc>
+  <lastmod>2019-09-15T20:09:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/about.html</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/about.html</loc>
+  <lastmod>2019-07-19T22:56:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/spie.html</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/soar.html</loc>
+  <lastmod>2019-09-16T01:35:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/weizmann.html</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/hssh.html</loc>
+  <lastmod>2019-09-16T01:30:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/isef.html</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/spie.html</loc>
+  <lastmod>2019-07-19T22:56:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/index.html</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/weizmann.html</loc>
+  <lastmod>2019-09-15T19:48:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tonypan.us/isef.html</loc>
+  <lastmod>2019-07-19T22:56:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tonypan.us/index.html</loc>
+  <lastmod>2019-09-15T19:45:22+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/files/ISSI_trip_report.pdf</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/files/hssh_report.pdf</loc>
+  <lastmod>2019-09-15T19:31:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/files/weizmann_paper.pdf</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/files/ISSI_trip_report.pdf</loc>
+  <lastmod>2019-07-19T22:56:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/files/ISEF_paper.pdf</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/files/weizmann_paper.pdf</loc>
+  <lastmod>2019-07-19T22:56:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tonypan.us/files/ISEF_poster.pdf</loc>
-  <lastmod>2019-06-18T11:19:29+00:00</lastmod>
+  <loc>http://tonypan.us/files/ISEF_paper.pdf</loc>
+  <lastmod>2019-07-19T22:56:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tonypan.us/files/ISEF_poster.pdf</loc>
+  <lastmod>2019-07-19T22:56:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
